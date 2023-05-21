@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <h1>
+            Share Your Favorites!
+        </h1>
+
+        <div class="navigation-bar">
+            <a href="./about.html">about</a>
+            <a href="./fav-restaurants.html">restaurants</a>
+            <a href="./recipes-to-try.html">recipes</a>
+            <a href="./send-recipe.html">share recipes</a>
+        </div>
+
+
+        <form action="/form-handling-url" method="post" class="form-box">
+            <fieldset>
+                <legend class="legend-text"><strong>SHARE YOUR FAVORITES</strong></legend>
+                <div class="input-container">
+                    <label for="firstName">First Name:</label>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
+
+                <div class="input-container">
+                    <label for="lastName">Last Name:</label>
+                    <input type="text" id="lastName" name="last_name">
+                </div>
+
+                <div class="input-container">
+                    <label for="message">Let us know your favorite restaurants and/or recipes!</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+
+                <div class="checkbox">
+                    <input type="checkbox" id="signup" value="signup">
+                    <label for="signup">I'd like a response!</label>
+                </div>
+
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+
+            </fieldset>
+        </form>
+    </body>
+</html>

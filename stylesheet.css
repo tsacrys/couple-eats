@@ -1,0 +1,170 @@
+
+h1 {
+    font-family: Quicksand;
+    padding: 8px;
+    text-align: center;
+    color:rgb(21, 70, 97)
+}
+
+a {
+    font-family: Source Sans Pro;
+}
+
+p {
+    font-family: Source Sans Pro;
+    margin-top: 3.5px;
+    margin-bottom: 3.5px;
+}
+
+li {
+    font-family: Source Sans Pro;
+}
+
+h2 {
+    font-family: Quicksand;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+h3 {
+    font-family: Quicksand;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    color: rgb(83, 145, 54);
+    padding: 1px;
+}
+
+.navigation-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-top: 2px solid rgb(219, 194, 4);
+    border-bottom: 2px solid rgb(219, 194, 4);
+    padding: 10px;
+}
+
+.paragraph-container {
+    margin-left: 170px;
+    margin-right: 170px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-img {
+    max-width: 40%;
+    max-height: 58%;
+    justify-content: center;
+    align-items: center;
+    rotate: 90deg;
+}
+
+.double-column-container {
+    margin-left: 170px;
+    margin-right: 170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+}
+
+.heading-paragraph-container {
+    border: 10px;
+    padding: 20px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.paragraph-text {
+    margin-right: 170px;
+    margin-left: 170px;
+    padding: 20px;
+}
+
+.list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.food-photo {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    padding: 5px;
+    border-radius: 5%;
+}
+
+.recipe-grid-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.recipe-photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.moved-heading {
+    display: flex;
+    position: relative;
+    text-align: center;
+}
+
+.form-box {
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    font-family: Source Sans Pro;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.input-container * {
+    width: 50%;
+    max-width: 50%;
+    box-sizing: border-box;
+}
+
+.checkbox {
+    padding: 2%;
+}
+
+.legend-text {
+    color: rgb(83, 145, 54);
+    padding: 5px;
+}
+
+.restaurant-photo {
+    height: 200px;
+    width: 280px;
+    object-fit: cover;
+    padding: 5px;
+    border-radius: 5%;
+}
+
+.unordered-list {
+    margin-right: 30px;
+}
